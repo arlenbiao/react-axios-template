@@ -1,13 +1,12 @@
 import React from 'react'
-import './index.css'
+import './index.scss'
 import axios from '../../model/axios';
 class Nav extends React.Component {
   getData = () => {
-    axios.get(`/api/api/lottery/get/14352`, {
-      data: {
-        lotteryId: "14305",
-        uid: "3926"
-      }}).then(res => {
+    axios.post('/api/dynamic/get/14352', {
+      lotteryId: 14262,
+      uid: 3234
+    }).then(res => {
       // 14305，uid：3926
       console.log(res);
     }).catch(err => {

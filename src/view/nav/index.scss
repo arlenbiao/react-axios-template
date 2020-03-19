@@ -1,0 +1,8 @@
+@function px2rem($px, $rem:75) {
+    @return $px/$rem+rem
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: px2rem(50, );
+}
