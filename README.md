@@ -55,6 +55,14 @@ proxy: {
     }
 }
 ```
-### 5、关注我，从此踏上踩坑的不归路，踩坑从我开始
+### 7、请求的时候
+```
+axios.post("/api/xxxx",{}).then(res=>{
+    console.log(res)
+}).catch(err=>{
+    console.log(err)
+})
+```
+## 关注我，从此踏上踩坑的不归路，踩坑从我开始
 
-[转载来自：https://blog.csdn.net/liaofengji/article/details/95044427](https://blog.csdn.net/liaofengji/article/details/95044427)
+# 个人归纳总结，给个星星吧
