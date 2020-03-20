@@ -63,6 +63,19 @@ axios.post("/api/xxxx",{}).then(res=>{
     console.log(err)
 })
 ```
+
+### 8、新增sass功能，新增路由功能【react-router-dom】
+```
+npm install --save node-sass css-loader style-loader react-router-dom
+
+tips：npm下载估计会很慢，可以采用cnpm 淘宝镜像
+
+----------------
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+----------------
+
+```
+
 ## 关注我，从此踏上踩坑的不归路，踩坑从我开始
 
 # 个人归纳总结，给个星星吧
