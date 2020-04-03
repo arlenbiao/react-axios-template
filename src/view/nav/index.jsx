@@ -16,14 +16,14 @@ class Nav extends React.Component {
       console.log(err);
     })
   }
-  goHome=()=> {
-    this.props.history.push("/home")
-  }
   render() {
     return (
-      <nav>这是nav组件，也是首页<Link to="home">点我跳转去home组件路由</Link>
-        <button onClick={this.goHome}>这是按钮式跳转</button>
-      </nav>
+      <ul className="nav-index">
+        <li>全部</li>
+        <li>未付款</li>
+        <li>待评价</li>
+        <li>售后</li>
+      </ul>
     );
   }
 }
